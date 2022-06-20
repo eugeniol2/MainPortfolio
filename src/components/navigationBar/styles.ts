@@ -5,7 +5,6 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: green;
   top: 0;
   z-index: 100;
   position: sticky;

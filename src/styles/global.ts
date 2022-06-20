@@ -82,8 +82,8 @@ export const MainContainer = styled.div`
 `;
 
 export const PageContainer = styled.div`
+  padding-top: 72px;
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color: lightblue;
 `;

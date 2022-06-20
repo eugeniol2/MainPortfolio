@@ -1,9 +1,9 @@
 import React from 'react';
 import { PageContainer } from '../../styles/global';
-import { TextBox } from '../TextBox';
+import { TextBox } from '../../components/TextBox';
 import { Container } from './styles';
 
-export const AboutContent = (): JSX.Element => {
+export const AboutPage = (): JSX.Element => {
   return (
     <PageContainer>
       <Container>

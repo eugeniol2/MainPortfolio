@@ -1,7 +1,7 @@
 import React from 'react';
-import { HomeContent } from './components/HomeContent';
+import { Home } from './View/Home';
 
-import { NavigationBar } from './components/navigationBar';
+import { NavigationBar } from './components/NavigationBar';
 
 import { GlobalStyle, MainContainer } from './styles/global';
 
@@ -9,7 +9,7 @@ const App: React.FC = () => {
   return (
     <MainContainer>
       <NavigationBar />
-      <HomeContent />
+      <Home />
       <GlobalStyle />
     </MainContainer>
   );
