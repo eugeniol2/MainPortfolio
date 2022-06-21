@@ -1,1 +1,2 @@
-thats my portfolio personal project, release soon =)
+Thats my personal porfolio project, actually being build, release soon =)
+
