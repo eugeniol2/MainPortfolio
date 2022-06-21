@@ -22,14 +22,15 @@ export const GlobalStyles = css`
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
   }
+  button {
+    cursor: pointer;
+  }
 `;
 
 export const MainContainer = styled.div`
   margin: 0 112px 0 112px;
   height: 100%;
 `;
-
-export const PageContainerWrapper = styled.div``;
 
 export const PageContainer = styled.div`
   padding-top: 72px;

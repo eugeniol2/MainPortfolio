@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from '@emotion/styled';
 
 export const Container = styled.div`
   height: 72px;
@@ -17,5 +17,9 @@ export const MenuOptions = styled.div`
 
   h4:hover {
     cursor: pointer;
+  }
+
+  > h4 {
+    font-family: 'inter';
   }
 `;

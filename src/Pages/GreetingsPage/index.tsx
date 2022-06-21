@@ -1,8 +1,8 @@
-import { Button } from '@mui/material';
-import SendIcon from '@mui/icons-material/Send';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import React from 'react';
 import { TextBox } from '../../components/TextBox';
 import { TextBoxContainer } from '../../View/Home/styles';
+import { CustomButton } from './styles';
 
 const GreetingsPage: React.FC = () => {
   return (
@@ -16,9 +16,13 @@ const GreetingsPage: React.FC = () => {
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
         velit esse cillum dolore eu fugiat nulla pariatur"
       />
-      <Button variant="contained" endIcon={<SendIcon />}>
-        Send
-      </Button>
+      <CustomButton
+        variant="outlined"
+        size="large"
+        endIcon={<ArrowForwardIcon />}
+      >
+        Sobre
+      </CustomButton>
     </TextBoxContainer>
   );
 };
