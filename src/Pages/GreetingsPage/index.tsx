@@ -1,3 +1,5 @@
+import { Button } from '@mui/material';
+import SendIcon from '@mui/icons-material/Send';
 import React from 'react';
 import { TextBox } from '../../components/TextBox';
 import { TextBoxContainer } from '../../View/Home/styles';
@@ -14,7 +16,9 @@ const GreetingsPage: React.FC = () => {
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
         velit esse cillum dolore eu fugiat nulla pariatur"
       />
-      <button type="button">Custom Order</button>
+      <Button variant="contained" endIcon={<SendIcon />}>
+        Send
+      </Button>
     </TextBoxContainer>
   );
 };
