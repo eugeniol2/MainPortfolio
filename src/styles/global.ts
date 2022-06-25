@@ -21,9 +21,10 @@ export const GlobalStyles = css`
   html {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    background: var();
+    background-color: #0c0913;
   }
-  button {
+  button,
+  a {
     cursor: pointer;
   }
 `;

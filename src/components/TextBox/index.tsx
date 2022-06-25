@@ -1,3 +1,4 @@
+import Typography from '@mui/material/Typography';
 import React from 'react';
 import { Container } from './styles';
 
@@ -9,8 +10,12 @@ interface TextProps {
 export const TextBox: React.FC<TextProps> = ({ title, text }: TextProps) => {
   return (
     <Container>
-      <h1>{title}</h1>
-      <p>{text}</p>
+      <Typography variant="h3" component="h3" color="white">
+        {title}
+      </Typography>
+      <Typography variant="body1" component="p" color="white">
+        {text}
+      </Typography>
     </Container>
   );
 };

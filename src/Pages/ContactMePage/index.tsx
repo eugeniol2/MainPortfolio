@@ -6,8 +6,7 @@ import { Container } from './styles';
 export const ContactMePage: React.FC = () => {
   return (
     <Container>
-      {/* <ContactForm /> */}
-      <ThinkingGuy />
+      <ContactForm />
     </Container>
   );
 };

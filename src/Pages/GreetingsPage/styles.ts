@@ -12,13 +12,13 @@ export const CustomButton = styled(Button)({
   border: '1px solid',
   lineHeight: 1.5,
   // backgroundColor: '#0063cc',
-  color: 'black',
-  borderColor: 'black',
+  color: 'white',
+  borderColor: 'white',
   fontFamily: ['inter'].join(','),
   '&:hover': {
     backgroundColor: 'gray',
     fontWeight: 'bold',
-    borderColor: 'black',
+    borderColor: 'white',
     boxShadow: 'none',
   },
   '&:active': {
@@ -30,3 +30,16 @@ export const CustomButton = styled(Button)({
   //   boxShadow: '0 0 0 0.2rem rgba(0,123,255,.5)',
   // },
 });
+
+export const Container = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+export const TextBoxContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin: 143px 0 0 176px;
+  width: 422px;
+`;
