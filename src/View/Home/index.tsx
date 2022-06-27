@@ -15,7 +15,13 @@ export const Home: React.FC = () => {
   return (
     <>
       {Pages.map((page) => (
-        <PageContainer>{page}</PageContainer>
+        <PageContainer
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1, duration: 0.8 }}
+        >
+          {page}
+        </PageContainer>
       ))}
     </>
   );

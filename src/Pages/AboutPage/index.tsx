@@ -1,7 +1,8 @@
 import React from 'react';
 import { ThinkingGuy } from '../../animations/ThinkingGuy';
 import { TextBox } from '../../components/TextBox';
-import { Container, WrapperContainer } from './styles';
+import { WrapperContainer } from '../../styles/global';
+import { Container } from './styles';
 
 export const AboutPage = (): JSX.Element => {
   return (

@@ -1,6 +1,7 @@
 // import styled, { createGlobalStyle } from 'styled-components';
 import { css } from '@emotion/react';
 import styled from '@emotion/styled';
+import { motion } from 'framer-motion/dist/framer-motion';
 
 export const GlobalStyles = css`
   :root {
@@ -34,11 +35,16 @@ export const MainContainer = styled.div`
   height: 100%;
 `;
 
-export const PageContainer = styled.div`
-  padding-top: 72px;
+export const PageContainer = styled(motion.div)`
   display: flex;
-  flex-direction: column;
+  padding-top: 72px;
   height: 100vh;
-
   scroll-snap-align: start;
+`;
+
+export const WrapperContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
 `;

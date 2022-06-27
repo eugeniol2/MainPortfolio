@@ -6,7 +6,11 @@ import { Container, MenuOptions } from './styles';
 export const NavigationBar: React.FC = () => {
   const NavItems = ['Sobre', 'Experiência', 'Projetos', 'Contato', 'Curriculo'];
   return (
-    <Container>
+    <Container
+      initial={{ y: -250 }}
+      animate={{ y: 0 }}
+      transition={{ delay: 0.5 }}
+    >
       <img src={logoImg} alt="Eugênio Araújo" />
       <MenuOptions>
         {NavItems.map((item) => (

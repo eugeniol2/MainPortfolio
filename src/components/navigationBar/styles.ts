@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
+import { motion } from 'framer-motion/dist/framer-motion';
 
-export const Container = styled.div`
+export const Container = styled(motion.div)`
   padding-top: 32px;
   height: 72px;
   display: flex;

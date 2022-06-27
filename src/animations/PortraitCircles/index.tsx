@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion/dist/framer-motion';
 
 const circlesProps = {
   scale: [1, 2, 2, 1, 1],
@@ -9,13 +9,13 @@ const circlesProps = {
 
 export const PortraitCircles = (): JSX.Element => {
   return (
-    <svg
+    <motion.svg
       width="402"
       height="376"
       viewBox="0 0 402 376"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      // animate={circlesProps}
+      animate={circlesProps}
     >
       <g id="Group 4">
         <path
@@ -34,7 +34,7 @@ export const PortraitCircles = (): JSX.Element => {
           stroke="#B69EEB"
         />
       </g>
-    </svg>
+    </motion.svg>
   );
 };
 
