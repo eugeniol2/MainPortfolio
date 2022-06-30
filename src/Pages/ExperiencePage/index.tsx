@@ -1,7 +1,7 @@
 import React from 'react';
 import { TextBox } from '../../components/TextBox';
-import { WrapperContainer } from '../../styles/global';
-import { Container } from './styles';
+
+import { Container, WrapperContainer } from './styles';
 
 export const ExperiencePage = (): JSX.Element => {
   return (

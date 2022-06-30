@@ -11,7 +11,7 @@ const GreetingsPage: React.FC = () => {
   return (
     <Container>
       <TextBoxContainer>
-        <Typography variant="h6" component="h3" color="white">
+        <Typography variant="h6" component="h3">
           Olá, me chamo
         </Typography>
         <TextBox
@@ -23,8 +23,9 @@ const GreetingsPage: React.FC = () => {
         velit esse cillum dolore eu fugiat nulla pariatur"
         />
         <CustomButton
-          variant="outlined"
+          variant="contained"
           size="large"
+          color="secondary"
           endIcon={<ArrowForwardIcon />}
         >
           Sobre

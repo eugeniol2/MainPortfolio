@@ -1,18 +1,16 @@
 import React from 'react';
 import { Global } from '@emotion/react';
+import { ThemeProvider } from '@mui/material/styles';
 import { Home } from './View/Home';
-
-import { NavigationBar } from './components/NavigationBar';
-
-import { GlobalStyles, MainContainer } from './styles/global';
+import { GlobalStyles } from './styles/global';
+import { theme } from './styles/theme';
 
 const App: React.FC = () => {
   return (
-    <MainContainer>
-      <NavigationBar />
+    <ThemeProvider theme={theme}>
       <Home />
       <Global styles={GlobalStyles} />
-    </MainContainer>
+    </ThemeProvider>
   );
 };
 

@@ -12,11 +12,10 @@ export const CustomButton = styled(Button)({
   border: '1px solid',
   lineHeight: 1.5,
   // backgroundColor: '#0063cc',
-  color: 'white',
-  borderColor: 'white',
+  // color: 'white',
+  // borderColor: 'white',
   fontFamily: ['inter'].join(','),
   '&:hover': {
-    backgroundColor: 'gray',
     fontWeight: 'bold',
     borderColor: 'white',
     boxShadow: 'none',

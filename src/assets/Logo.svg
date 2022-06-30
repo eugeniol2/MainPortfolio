@@ -2,7 +2,7 @@
 <g id="Logo">
 <circle id="WhiteCircle" cx="46.5" cy="36.5" r="35.5" fill="white"/>
 <g id="Circles">
-<circle id="BlackCircle" cx="46.5" cy="36.5" r="32.5" fill="black"/>
+<circle id="BlackCircle" cx="46.5" cy="36.5" r="32.5" fill="#0F0427"/>
 <g id="Group 2">
 <g id="Group 1">
 <g id="Letters">

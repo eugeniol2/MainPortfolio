@@ -1,15 +1,14 @@
 import React from 'react';
 import { ThinkingGuy } from '../../animations/ThinkingGuy';
 import { TextBox } from '../../components/TextBox';
-import { WrapperContainer } from '../../styles/global';
-import { Container } from './styles';
+import { Container, WrapperContainer } from './styles';
 
 export const AboutPage = (): JSX.Element => {
   return (
     <WrapperContainer>
       <Container>
         <TextBox
-          title="Sobre"
+          title="Educação"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
   veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea

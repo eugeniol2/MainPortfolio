@@ -1,9 +1,10 @@
 import React from 'react';
-import { PageContainer } from '../../styles/global';
 import { AboutPage } from '../../Pages/AboutPage';
 import { ExperiencePage } from '../../Pages/ExperiencePage';
 import GreetingsPage from '../../Pages/GreetingsPage';
 import { ContactMePage } from '../../Pages/ContactMePage';
+import { NavigationBar } from '../../components/NavigationBar';
+import { MainContainer, PageContainer } from './styles';
 
 export const Home: React.FC = () => {
   const Pages = [
@@ -13,7 +14,8 @@ export const Home: React.FC = () => {
     <ContactMePage />,
   ];
   return (
-    <>
+    <MainContainer>
+      <NavigationBar />
       {Pages.map((page) => (
         <PageContainer
           initial={{ opacity: 0 }}
@@ -23,6 +25,6 @@ export const Home: React.FC = () => {
           {page}
         </PageContainer>
       ))}
-    </>
+    </MainContainer>
   );
 };
