@@ -14,12 +14,7 @@ export const NavigationBar: React.FC = () => {
       <img src={logoImg} alt="Eugênio Araújo" />
       <MenuOptions>
         {NavItems.map((item) => (
-          <Typography
-            variant="button"
-            component="a"
-            color="white"
-            fontFamily="inter"
-          >
+          <Typography variant="button" component="a" fontFamily="inter">
             {item}
           </Typography>
         ))}

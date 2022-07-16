@@ -2,6 +2,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Typography from '@mui/material/Typography';
 import React from 'react';
 import PortraitCircles from '../../animations/PortraitCircles';
+import { colors } from '../../styles/theme';
 
 import { TextBox } from '../../components/TextBox';
 

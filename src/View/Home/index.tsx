@@ -1,6 +1,6 @@
 import React from 'react';
 import { AboutPage } from '../../Pages/AboutPage';
-import { ExperiencePage } from '../../Pages/ExperiencePage';
+import { ProjectPage } from '../../Pages/ExperiencePage';
 import GreetingsPage from '../../Pages/GreetingsPage';
 import { ContactMePage } from '../../Pages/ContactMePage';
 import { NavigationBar } from '../../components/NavigationBar';
@@ -10,7 +10,7 @@ export const Home: React.FC = () => {
   const Pages = [
     <GreetingsPage />,
     <AboutPage />,
-    <ExperiencePage />,
+    <ProjectPage />,
     <ContactMePage />,
   ];
   return (

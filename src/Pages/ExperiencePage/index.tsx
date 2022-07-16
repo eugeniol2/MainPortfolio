@@ -1,30 +1,27 @@
 import React from 'react';
+import ProjectCard from '../../components/ProjectCard';
 import { TextBox } from '../../components/TextBox';
 
 import { Container, WrapperContainer } from './styles';
 
-export const ExperiencePage = (): JSX.Element => {
+export const ProjectPage = (): JSX.Element => {
   return (
     <WrapperContainer>
-      <Container>
-        <TextBox
-          title="Sobre"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-  velit esse cillum dolore eu fugiat nulla pariatur"
-        />
-
-        <TextBox
-          title="Tecnologias"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-  velit esse cillum dolore eu fugiat nulla pariatur"
-        />
-      </Container>
+      <ProjectCard
+        title="Ignite"
+        subtitle="React-Js"
+        imageURL="https://image.shutterstock.com/image-illustration/3d-render-abstract-minimal-futuristic-600w-1708270069.jpg"
+      />
+      <ProjectCard
+        title="Ignite"
+        subtitle="React-Js"
+        imageURL="https://image.shutterstock.com/image-illustration/3d-render-abstract-minimal-futuristic-600w-1708270069.jpg"
+      />
+      <ProjectCard
+        title="Ignite"
+        subtitle="React-Js"
+        imageURL="https://image.shutterstock.com/image-illustration/3d-render-abstract-minimal-futuristic-600w-1708270069.jpg"
+      />
     </WrapperContainer>
   );
 };

@@ -39,6 +39,9 @@ export const theme = createTheme({
     },
   },
   typography: {
+    button: {
+      color: colors.white,
+    },
     h3: {
       color: colors.primary_75,
     },
