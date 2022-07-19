@@ -2,20 +2,20 @@ import { createTheme } from '@mui/material/styles';
 
 export const colors = {
   primary_50: '#EEE8FC',
-  primary_75: '#B99FF3',
-  primary_200: '#713DE7',
-  primary_300: '#5415E2',
-  primary_400: '#3B0F9E',
-  secondary_200: '#EF892B',
-  secondary_300: '#EC7100',
-  secondary_400: '#A54F00',
+  primary_75: '#9cf5ce',
+  primary_200: '#37eb9b',
+  primary_300: '#0ee787',
+  primary_400: '#0aa25f',
+  secondary_200: '#91d1e8',
+  secondary_300: '#7ac7e3',
+  secondary_400: '#558b9f',
   success: '#19DB4F',
   danger: '#FF0404',
   warning: '#FFC107',
   info: '#00a2ff',
   dark: '#0e1b20',
   light: '#aaa',
-  // background
+  // background #111728
   background_300: '#150637',
   background_400: '#0F0427',
   background_500: '#0D0422',
@@ -43,10 +43,10 @@ export const theme = createTheme({
       color: colors.white,
     },
     h3: {
-      color: colors.primary_75,
+      color: colors.primary_200,
     },
     h6: {
-      color: colors.primary_75,
+      color: colors.primary_200,
     },
     body1: {
       color: colors.primary_50,
