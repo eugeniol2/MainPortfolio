@@ -48,16 +48,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             {subtitle}
           </Typography>
         </TextContainer>
-        {/* <FullProjectLink>
-          <Typography variant="button" component="a" fontFamily="inter">
-            Projeto completo
-          </Typography>
-          <ArrowForwardIcon
-            sx={{
-              color: `${colors.white}`,
-            }}
-          />
-        </FullProjectLink> */}
       </ContentContainer>
       <ProjectDescription>
         <Typography

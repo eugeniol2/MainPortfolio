@@ -5,16 +5,23 @@ import { ThemeProvider } from '@mui/material/styles';
 import { Home } from './View/Home';
 import { GlobalStyles } from './styles/global';
 import { theme } from './styles/theme';
-import ErrorPage from './components/ErrorPage';
+import ErrorPage from './Pages/ErrorPage';
+import { ProjectsPage } from './Pages/ProjectsPage';
+import { NavigationBar } from './components/NavigationBar';
+import { MainContainer } from './View/Home/styles';
 
 const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="*" element={<ErrorPage />} />
-        </Routes>
+        <MainContainer>
+          <NavigationBar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="*" element={<ErrorPage />} />
+          </Routes>
+        </MainContainer>
       </Router>
       <Global styles={GlobalStyles} />
     </ThemeProvider>

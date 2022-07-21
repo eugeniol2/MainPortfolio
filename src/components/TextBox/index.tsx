@@ -7,7 +7,7 @@ interface TextProps {
   text: string;
 }
 
-export const TextBox: React.FC<TextProps> = ({ title, text }: TextProps) => {
+export const TextBox: React.FC<TextProps> = ({ title, text }) => {
   return (
     <Container>
       <Typography

@@ -1,3 +1,4 @@
+import { NoEncryption } from '@mui/icons-material';
 import { createTheme } from '@mui/material/styles';
 
 export const colors = {
@@ -48,6 +49,7 @@ export const theme = createTheme({
     h6: {
       color: colors.primary_200,
     },
+
     body1: {
       color: colors.primary_50,
     },
