@@ -6,9 +6,9 @@ import { Home } from './View/Home';
 import { GlobalStyles } from './styles/global';
 import { theme } from './styles/theme';
 import ErrorPage from './Pages/ErrorPage';
-import { ProjectsPage } from './Pages/ProjectsPage';
 import { NavigationBar } from './components/NavigationBar';
 import { MainContainer } from './View/Home/styles';
+import { ProjectsPage } from './Pages/ProjectsPage';
 
 const App: React.FC = () => {
   return (

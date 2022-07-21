@@ -1,13 +1,11 @@
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Typography from '@mui/material/Typography';
 import React from 'react';
 import PortraitCircles from '../../animations/PortraitCircles';
 import { colors } from '../../styles/theme';
-
 import { TextBox } from '../../components/TextBox';
-
-import { Container, CustomButton, TextBoxContainer } from './styles';
+import { Container, TextBoxContainer } from './styles';
 import { NavigationBar } from '../../components/NavigationBar';
+import ResumeButton from '../../components/ResumeButton';
 
 const GreetingsPage: React.FC = () => {
   return (
@@ -25,14 +23,7 @@ const GreetingsPage: React.FC = () => {
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
         velit esse cillum dolore eu fugiat nulla pariatur"
           />
-          <CustomButton
-            variant="contained"
-            size="large"
-            color="secondary"
-            endIcon={<ArrowForwardIcon />}
-          >
-            Sobre
-          </CustomButton>
+          <ResumeButton text="Curriculo" />
         </TextBoxContainer>
         <PortraitCircles />
       </Container>
