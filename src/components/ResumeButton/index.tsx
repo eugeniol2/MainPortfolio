@@ -2,11 +2,7 @@ import React from 'react';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { ResumeButtonContainer } from './styles';
 
-interface ResumeButtonProps {
-  text: string;
-}
-
-const ResumeButton: React.FC<ResumeButtonProps> = ({ text }) => {
+const ResumeButton: React.FC = ({ children }) => {
   return (
     <ResumeButtonContainer
       variant="contained"
@@ -14,7 +10,7 @@ const ResumeButton: React.FC<ResumeButtonProps> = ({ text }) => {
       color="secondary"
       endIcon={<ArrowForwardIcon />}
     >
-      {text}
+      {children}
     </ResumeButtonContainer>
   );
 };

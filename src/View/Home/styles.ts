@@ -3,7 +3,6 @@ import { motion } from 'framer-motion/dist/framer-motion';
 
 export const MainContainer = styled.div`
   margin: 0 112px 0 112px;
-  height: 100vh;
 `;
 
 export const PageContainer = styled(motion.div)`

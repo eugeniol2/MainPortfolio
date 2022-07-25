@@ -1703,10 +1703,10 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.5.tgz#db5a11bf66bdab39569719555b0f76e138d7bd64"
   integrity sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw==
 
-"@prismicio/client@^6.6.1":
-  version "6.6.1"
-  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-6.6.1.tgz#087547a7d3283906a0d4cf7ea417e756fdc9b8eb"
-  integrity sha512-Jq/s9fC8pz49f68dk6gMNFqDItPg7Ka8PO0D9dTzibx83+GKha+y0clqaygxPWlgE8csc9Yk/KS6N8AvesnTVA==
+"@prismicio/client@^6.6.2":
+  version "6.6.2"
+  resolved "https://registry.yarnpkg.com/@prismicio/client/-/client-6.6.2.tgz#031275aebbe791bc83d2a821eb3944b16a5f82e0"
+  integrity sha512-VVI7/frKmnO4UGIi67gYp2t3aTe6nFOY527wn8nfL0TjPrYbDxdPEcC7Rfhbio7F5hfk0ABbqq1Qd0rXskKuNA==
   dependencies:
     "@prismicio/helpers" "^2.3.1"
     "@prismicio/types" "^0.1.29"
@@ -1720,6 +1720,14 @@
     "@prismicio/types" "^0.1.27"
     escape-html "^1.0.3"
     imgix-url-builder "^0.0.3"
+
+"@prismicio/react@^2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@prismicio/react/-/react-2.4.3.tgz#d8ddbd26053a18fbab04ba685ad63fc64281e537"
+  integrity sha512-HedWPdxchfjYhiHQxsBbN++hsjXk0t3LJ58K7ISIkogv09MdOC2q26d4XFoEyew8EL/EJ4h/fT7FaekFv0Azfg==
+  dependencies:
+    "@prismicio/helpers" "^2.3.1"
+    "@prismicio/richtext" "^2.0.1"
 
 "@prismicio/richtext@^2.0.1":
   version "2.1.0"

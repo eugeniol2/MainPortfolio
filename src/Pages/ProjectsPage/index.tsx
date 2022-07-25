@@ -1,25 +1,20 @@
 import React from 'react';
+import { PrismicRichText, useFirstPrismicDocument } from '@prismicio/react';
 import ProjectCard from '../../components/ProjectCard';
-import { WrapperContainer } from './styles';
+import { Container } from './styles';
 
 export const ProjectsPage: React.FC = () => {
+  const [document] = useFirstPrismicDocument();
   return (
-    <WrapperContainer>
-      <ProjectCard
-        title="Ignite"
-        subtitle="React-Js"
-        imageURL="https://image.shutterstock.com/image-illustration/3d-render-abstract-minimal-futuristic-600w-1708270069.jpg"
-      />
-      <ProjectCard
-        title="Ignite"
-        subtitle="React-Js"
-        imageURL="https://image.shutterstock.com/image-illustration/3d-render-abstract-minimal-futuristic-600w-1708270069.jpg"
-      />
-      <ProjectCard
-        title="Ignite"
-        subtitle="React-Js"
-        imageURL="https://image.shutterstock.com/image-illustration/3d-render-abstract-minimal-futuristic-600w-1708270069.jpg"
-      />
-    </WrapperContainer>
+    <Container>
+      <div>
+        {/* {document && (
+          <PrismicRichText field={document.data.example_rich_text} />
+        )} */}
+        <button type="button" onClick={() => console.log(document)}>
+          test
+        </button>
+      </div>
+    </Container>
   );
 };

@@ -4,10 +4,9 @@ import { Container } from './styles';
 
 interface TextProps {
   title: string;
-  text: string;
 }
 
-export const TextBox: React.FC<TextProps> = ({ title, text }) => {
+export const TextBox: React.FC<TextProps> = ({ title, children }) => {
   return (
     <Container>
       <Typography
@@ -20,7 +19,7 @@ export const TextBox: React.FC<TextProps> = ({ title, text }) => {
         {title}
       </Typography>
       <Typography variant="body1" component="p">
-        {text}
+        {children}
       </Typography>
     </Container>
   );

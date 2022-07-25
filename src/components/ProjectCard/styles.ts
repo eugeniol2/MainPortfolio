@@ -7,22 +7,14 @@ interface ContentContainerProps {
 
 export const Container = styled.div`
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: flex-end;
-  height: 204px;
-  /* background-color: green; */
-
-  /* width: 100%; */
-
-  /* @media (max-width: 1600px) {
-    width: 600px;
-    height: 100px;
-  } */
+  height: 320px;
 `;
 
 export const ContentContainer = styled.div<ContentContainerProps>`
   position: relative;
-  height: 204px;
+  height: 100%;
   width: 60%;
   background: url(${(props) => props.imageURL}) no-repeat center;
   background-size: cover;
@@ -45,17 +37,10 @@ export const TextContainer = styled.section`
   }
 `;
 
-export const FullProjectLink = styled.a`
-  display: flex;
-  position: absolute;
-  bottom: 16px;
-  right: -35%;
-`;
-
 export const ProjectDescription = styled.div`
   width: 30%;
-  max-height: 100%;
-  min-width: 100px;
+  max-height: 50%;
+  min-width: 164px;
   overflow: auto;
-  margin-left: 64px;
+  margin-left: 32px;
 `;

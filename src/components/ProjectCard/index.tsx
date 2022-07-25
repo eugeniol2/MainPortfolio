@@ -1,16 +1,12 @@
 import { Button, Typography } from '@mui/material';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import React from 'react';
 import {
   Container,
   ContentContainer,
-  FullProjectLink,
   ProjectDescription,
   TextContainer,
 } from './styles';
 import { colors } from '../../styles/theme';
-import { CustomButton } from '../../Pages/GreetingsPage/styles';
-// https://image.shutterstock.com/image-illustration/3d-render-abstract-minimal-futuristic-600w-1708270069.jpg
 
 interface ProjectCardProps {
   title: string;
