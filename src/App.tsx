@@ -9,6 +9,7 @@ import ErrorPage from './Pages/ErrorPage';
 import { NavigationBar } from './components/NavigationBar';
 import { MainContainer } from './View/Home/styles';
 import { ProjectsPage } from './Pages/ProjectsPage';
+import { Post } from './Pages/Post';
 
 const App: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/post/:id" element={<Post />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
         </MainContainer>

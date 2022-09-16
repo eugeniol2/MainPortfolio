@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { motion } from 'framer-motion/dist/framer-motion';
 import { colors } from '../../styles/theme';
 
 interface ContentContainerProps {
@@ -10,9 +11,10 @@ export const Container = styled.div`
   /* justify-content: space-between; */
   align-items: flex-end;
   height: 320px;
+  margin: 64px;
 `;
 
-export const ContentContainer = styled.div<ContentContainerProps>`
+export const ContentContainer = styled(motion.div)<ContentContainerProps>`
   position: relative;
   height: 100%;
   width: 60%;

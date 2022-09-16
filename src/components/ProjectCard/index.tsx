@@ -1,4 +1,5 @@
 import { Button, Typography } from '@mui/material';
+import { motion } from 'framer-motion/dist/framer-motion';
 import React from 'react';
 import {
   Container,
@@ -12,16 +13,21 @@ interface ProjectCardProps {
   title: string;
   subtitle: string;
   imageURL: string;
+  description: string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
   title,
   subtitle,
   imageURL,
+  description,
 }: ProjectCardProps) => {
   return (
     <Container>
-      <ContentContainer imageURL={imageURL}>
+      <ContentContainer
+        imageURL={imageURL}
+        whileHover={{ scale: 1.05, transition: { duration: 0.1 } }}
+      >
         <TextContainer>
           <Typography
             variant="h3"
@@ -53,10 +59,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           fontWeight="bold"
           fontSize="16px"
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-          nobis ut facilis tempore. Quas harum dolores dolore sint reiciendis
-          porro maxime nam, ex ipsam accusamus excepturi. Fuga illum totam
-          voluptatem?
+          {description}
         </Typography>
       </ProjectDescription>
     </Container>
