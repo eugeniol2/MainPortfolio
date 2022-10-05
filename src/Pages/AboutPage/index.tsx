@@ -8,21 +8,16 @@ export const AboutPage = (): JSX.Element => {
     <WrapperContainer>
       <Container>
         <TextBox title="Educação">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur
+          Estudante de sistemas de informação na UFRPE, desde 2019. Costumo
+          também estudar por conta propria a partir de cursos online, atualmente
+          focado no desenvolvimento WEB, e logo mais mobile.
         </TextBox>
 
         <TextBox title="Tecnologias">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur
+          Por cursar sistemas de informação tenho um certo conhecimento com
+          Python, entretanto, meu foco, atualmente, está no react.js e Next.js.
+          Também utilizo várias bibliotecas interessantes para WEB: Styled
+          components, Material ui, Formik, React hook form, Toastify e etc.
         </TextBox>
       </Container>
       <ThinkingGuy />

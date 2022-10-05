@@ -52,6 +52,7 @@ export const theme = createTheme({
 
     body1: {
       color: colors.primary_50,
+      lineHeight: '24px',
     },
   },
 });

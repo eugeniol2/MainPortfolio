@@ -1,11 +1,10 @@
 import React from 'react';
 import { AboutPage } from '../../Pages/AboutPage';
 import GreetingsPage from '../../Pages/GreetingsPage';
-import { ContactMePage } from '../../Pages/ContactMePage';
 import { PageContainer } from './styles';
 
 export const Home: React.FC = () => {
-  const Pages = [<GreetingsPage />, <AboutPage />, <ContactMePage />];
+  const Pages = [<GreetingsPage />, <AboutPage />];
   return (
     <>
       {Pages.map((page) => (

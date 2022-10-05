@@ -5,55 +5,36 @@ import {
   useFirstPrismicDocument,
 } from '@prismicio/react';
 import { Link, useLocation } from 'react-router-dom';
-import ProjectCard from '../../components/ProjectCard';
 import { Container } from './styles';
 import Project from '../../components/Project';
 
 export const ProjectsPage: React.FC = () => {
   const [document] = useAllPrismicDocumentsByType('project');
   return (
-    // remover comentário abaixo para voltar ao normal
-    // <Container>
-    //   <div>
-    //     {console.log(document)}
-    //     {document?.map((item) => (
-    //       <Link to={`/post/${item.id}`}>
-    //         <ProjectCard
-    //           key={item.id}
-    //           title={item?.data.title}
-    //           subtitle={item?.data.type}
-    //           imageURL={item?.data.picture.url}
-    //           description={item?.data.description}
-    //         />
-    //       </Link>
-    //     ))}
-    //   </div>
-    // </Container>
     <Container>
-      <Project
-        imageURL="https://img.freepik.com/fotos-premium/tubarao-martelo-sphyrnidae-nadando-em-submarinos-tropicais-tubarao-martelo-no-mundo-subaquatico-observacao-do-oceano-de-vida-selvagem-aventura-de-mergulho-na-costa-equatoriana-de-galapagos_289152-5330.jpg?w=996"
-        title="teste"
-        subtitle="subtitleTest"
-        description="Descrição de exemplo que tem que ser bem grande"
-      />
-      <Project
-        imageURL="https://img.freepik.com/fotos-premium/tubarao-martelo-sphyrnidae-nadando-em-submarinos-tropicais-tubarao-martelo-no-mundo-subaquatico-observacao-do-oceano-de-vida-selvagem-aventura-de-mergulho-na-costa-equatoriana-de-galapagos_289152-5330.jpg?w=996"
-        title="teste"
-        subtitle="subtitleTest"
-        description="Descrição de exemplo que tem que ser bem grande"
-      />
-      <Project
-        imageURL="https://img.freepik.com/fotos-premium/tubarao-martelo-sphyrnidae-nadando-em-submarinos-tropicais-tubarao-martelo-no-mundo-subaquatico-observacao-do-oceano-de-vida-selvagem-aventura-de-mergulho-na-costa-equatoriana-de-galapagos_289152-5330.jpg?w=996"
-        title="teste"
-        subtitle="subtitleTest"
-        description="Descrição de exemplo que tem que ser bem grande"
-      />
-      <Project
-        imageURL="https://img.freepik.com/fotos-premium/tubarao-martelo-sphyrnidae-nadando-em-submarinos-tropicais-tubarao-martelo-no-mundo-subaquatico-observacao-do-oceano-de-vida-selvagem-aventura-de-mergulho-na-costa-equatoriana-de-galapagos_289152-5330.jpg?w=996"
-        title="teste"
-        subtitle="subtitleTest"
-        description="Descrição de exemplo que tem que ser bem grande"
-      />
+      {console.log(document)}
+      {document?.map((item) => (
+        // <Link to={`/post/${item.id}`}>
+        <Project
+          key={item.id}
+          title={item?.data.title}
+          stacks={item?.data.type}
+          imageURL={item?.data.picture.url}
+          description={item?.data.description}
+          gitHubLink="https://github.com/eugeniol2/ig.news"
+        />
+        // </Link>
+      ))}
     </Container>
+
+    // <Container>
+    //   <Project
+    //     imageURL="https://img.freepik.com/fotos-premium/tubarao-martelo-sphyrnidae-nadando-em-submarinos-tropicais-tubarao-martelo-no-mundo-subaquatico-observacao-do-oceano-de-vida-selvagem-aventura-de-mergulho-na-costa-equatoriana-de-galapagos_289152-5330.jpg?w=996"
+    //     title="Farm Metrics"
+    //     stacks="React.JS | Styled components | Framer motion"
+    //     description="Lorsed do eim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo "
+    //     gitHubLink="https://github.com/eugeniol2/ig.news"
+    //   />
+    // </Container>
   );
 };

@@ -1,10 +1,8 @@
 import Typography from '@mui/material/Typography';
 import React from 'react';
 import PortraitCircles from '../../animations/PortraitCircles';
-import { colors } from '../../styles/theme';
 import { TextBox } from '../../components/TextBox';
 import { Container, TextBoxContainer } from './styles';
-import { NavigationBar } from '../../components/NavigationBar';
 import ResumeButton from '../../components/ResumeButton';
 
 const GreetingsPage: React.FC = () => {
@@ -16,12 +14,12 @@ const GreetingsPage: React.FC = () => {
             Olá, me chamo
           </Typography>
           <TextBox title="Eugênio Araújo">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur
+            Amante da tecnologia desde 2019, em meu tempo livre sempre busco
+            estar me desafiando, e faço isso através de projetos pessoais como
+            este. Como programador, busco sempre manter meu código limpo, apesar
+            de que algo sempre poderá, ainda, ser melhorado. Por fim,
+            atualmente, busco uma vaga de estágio para que possa por em prática
+            tudo aquilo que venho aprendendo e me esforçando para alcançar!!
           </TextBox>
           <ResumeButton>Curriculo</ResumeButton>
         </TextBoxContainer>
