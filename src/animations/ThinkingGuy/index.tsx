@@ -2,11 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion/dist/framer-motion';
 import { Container } from './styles';
 
-const feetMoveVariants = {
-  from: { transform: 'rotateZ(30deg)' },
-  to: { transform: 'rotateZ(0deg)' },
-};
-
 const guyVariants = {
   initial: {
     rotate: 0,

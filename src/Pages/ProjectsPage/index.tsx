@@ -1,10 +1,5 @@
 import React from 'react';
-import {
-  PrismicRichText,
-  useAllPrismicDocumentsByType,
-  useFirstPrismicDocument,
-} from '@prismicio/react';
-import { Link, useLocation } from 'react-router-dom';
+import { useAllPrismicDocumentsByType } from '@prismicio/react';
 import { Container } from './styles';
 import Project from '../../components/Project';
 
@@ -12,7 +7,6 @@ export const ProjectsPage: React.FC = () => {
   const [document] = useAllPrismicDocumentsByType('project');
   return (
     <Container>
-      {console.log(document)}
       {document?.map((item) => (
         <Project
           key={item.id}

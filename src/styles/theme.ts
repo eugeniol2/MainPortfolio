@@ -1,4 +1,3 @@
-import { NoEncryption } from '@mui/icons-material';
 import { createTheme } from '@mui/material/styles';
 
 export const colors = {
