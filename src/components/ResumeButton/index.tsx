@@ -5,9 +5,10 @@ import { ResumeButtonContainer } from './styles';
 const ResumeButton: React.FC = ({ children }) => {
   return (
     <ResumeButtonContainer
-      variant="contained"
+      variant="outlined"
       size="large"
-      color="secondary"
+      color="primary"
+      href="https://drive.google.com/file/d/17Q7WIj2kqmsDrkIU83t0l36oeLZzCpSY/view?usp=sharing"
       endIcon={<ArrowForwardIcon />}
     >
       {children}

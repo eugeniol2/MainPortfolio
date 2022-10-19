@@ -1,30 +1,16 @@
 import styled from '@emotion/styled';
 import { motion } from 'framer-motion/dist/framer-motion';
+import { lighten } from 'polished';
 import { colors } from '../../styles/theme';
 
 interface ContentContainerProps {
   imageURL: string;
 }
 
-// export const Container = styled.div`
-//   width: 50%;
-//   height: 320px;
-//   display: flex;
-//   gap: 24px;
-//   align-self: flex-start;
-//   background-color: green;
-//   &:nth-child(even) {
-//     flex-direction: row-reverse;
-//     align-self: flex-end;
-//   }
-//   cursor: pointer;
-// `;
-
 export const Container = styled(motion.div)`
   width: 334px;
   height: 400px;
   display: flex;
-  /* gap: 16px; */
   flex-direction: column;
   background-color: ${colors.background_300};
   border-radius: 8px;
@@ -55,4 +41,8 @@ export const LinkContent = styled.div`
   display: flex;
   align-items: center;
   gap: 8px;
+
+  &:hover {
+    color: ${lighten(0.2, colors.primary_400)};
+  }
 `;

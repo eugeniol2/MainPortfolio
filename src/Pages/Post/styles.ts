@@ -9,8 +9,3 @@ export const Container = styled.div`
     align-items: center;
   }
 `;
-
-// &:nth-child(even) {
-//   flex-direction: row-reverse;
-//   align-self: flex-end;
-// }

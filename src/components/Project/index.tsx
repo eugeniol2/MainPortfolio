@@ -38,7 +38,7 @@ const Project: React.FC<ProjectCardProps> = ({
             fontFamily="montserrat"
             fontWeight="bold"
             fontSize="32px"
-            color={colors.secondary_300}
+            color={colors.primary_300}
           >
             {title}
           </Typography>
@@ -63,7 +63,7 @@ const Project: React.FC<ProjectCardProps> = ({
             fontFamily="montserrat"
             fontWeight="bold"
             fontSize="24px"
-            color={colors.secondary_300}
+            color={colors.primary_300}
           >
             Stacks:
           </Typography>

@@ -16,3 +16,5 @@ export const Post: React.FC = () => {
     </Container>
   );
 };
+
+// funcionalidade futura

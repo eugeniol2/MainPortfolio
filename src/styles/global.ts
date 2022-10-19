@@ -1,4 +1,3 @@
-// import styled, { createGlobalStyle } from 'styled-components';
 import { css } from '@emotion/react';
 import { colors } from './theme';
 

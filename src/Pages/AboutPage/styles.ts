@@ -10,6 +10,6 @@ export const Container = styled.div`
 export const WrapperContainer = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100vw;
 `;

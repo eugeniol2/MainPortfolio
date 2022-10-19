@@ -10,6 +10,7 @@ import { NavigationBar } from './components/NavigationBar';
 import { MainContainer } from './View/Home/styles';
 import { ProjectsPage } from './Pages/ProjectsPage';
 import { Post } from './Pages/Post';
+import AsideSocialMediaMenu from './components/AsideSocialMediaMenu';
 
 const App: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const App: React.FC = () => {
       <Router>
         <MainContainer>
           <NavigationBar />
+          <AsideSocialMediaMenu />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<ProjectsPage />} />

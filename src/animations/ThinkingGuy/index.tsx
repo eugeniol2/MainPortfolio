@@ -7,20 +7,6 @@ const feetMoveVariants = {
   to: { transform: 'rotateZ(0deg)' },
 };
 
-const handVariants = {
-  initial: {
-    y: -10,
-    x: 10,
-  },
-  hand: {
-    rotate: 360,
-    transition: {
-      yoyo: Infinity,
-      duration: 4,
-      ease: 'easeInOut',
-    },
-  },
-};
 const guyVariants = {
   initial: {
     rotate: 0,
@@ -64,19 +50,7 @@ const iconsVariants = {
     },
   },
 };
-// const variantsProps = {
-//   hand: {
-//     rotate: 10,
-//     transformOrigin: 'bottom',
-//     transformBox: 'fill-box',
-//     transition: {
-//       yoyo: Infinity,
-//       duration: 3,
-//       ease: 'easeInOut',
-//       repeatType: 'reverse',
-//     },
-//   },
-// };
+
 export const ThinkingGuy = (): JSX.Element => {
   return (
     <Container>
@@ -469,13 +443,7 @@ export const ThinkingGuy = (): JSX.Element => {
               fill="#6C63FF"
             />
           </g>
-          <motion.g
-            id="Hand"
-            // transition={{ yoyo: Infinity, duration: 4, ease: 'easeInOut' }}
-            // initial={{ rotate: 0 }}
-            // animate={{ rotate: 180 }}
-            // style={{ transformOrigin: 'top' }}
-          >
+          <motion.g id="Hand">
             <path
               id="Hand_2"
               d="M176.123 228.998C175.08 227.629 173.902 226.384 172.663 225.34C171.425 224.296 170.153 223.475 168.925 222.929C167.698 222.383 166.543 222.124 165.532 222.167C164.52 222.21 163.674 222.555 163.047 223.18C162.42 223.805 162.024 224.696 161.885 225.799C161.746 226.902 161.867 228.192 162.24 229.589C162.613 230.986 163.229 232.46 164.052 233.919C164.874 235.378 165.884 236.79 167.019 238.067L181.126 286.63C182.374 289.542 184.237 292.467 186.482 295.038C188.727 297.609 191.255 299.711 193.748 301.082L196.898 302.813L200.572 296.725L198.636 281.886L188.996 270.788L178.996 242.553L178.974 242.544C180.138 241.395 180.491 239.355 179.961 236.839C179.432 234.323 178.059 231.519 176.123 228.998Z"
