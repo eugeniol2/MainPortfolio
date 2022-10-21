@@ -10,5 +10,6 @@ export const PageContainer = styled(motion.div)`
   display: flex;
   padding-top: 72px;
   height: 100vh;
+  justify-content: center;
   scroll-snap-align: start;
 `;

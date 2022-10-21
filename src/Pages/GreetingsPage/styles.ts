@@ -5,6 +5,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-around;
   width: 100vw;
+  max-width: 2000px;
 `;
 
 export const TextBoxContainer = styled.div`
