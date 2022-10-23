@@ -36,4 +36,10 @@ export const GlobalStyles = css`
   a {
     cursor: pointer;
   }
+
+  @media (max-width: 1000px) {
+    html {
+      font-size: 93.75%;
+    }
+  }
 `;

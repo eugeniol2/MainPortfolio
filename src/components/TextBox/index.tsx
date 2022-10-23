@@ -15,7 +15,7 @@ export const TextBox: React.FC<TextProps> = ({ title, subtitle, children }) => {
         component="h3"
         fontFamily="montserrat"
         fontWeight="bold"
-        fontSize="48px"
+        fontSize="3rem"
       >
         {title}
       </Typography>

@@ -36,12 +36,12 @@ const GreetingsPage: React.FC = () => {
           component="img"
           sx={{
             // position: 'absolute',
-            transform: 'translate(10%, -10%)',
-            width: 350,
+            // transform: 'translate(10%, -10%)',
+            width: 250,
             borderRadius: 32,
-            right: 50,
+            // right: 50,
           }}
-          alt="The house from the offer."
+          alt="picture"
           src={selfphoto}
         />
       </Container>

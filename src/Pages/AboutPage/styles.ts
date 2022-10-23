@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { TextBoxContainer } from '../GreetingsPage/styles';
 
 export const Container = styled.div`
   display: flex;
@@ -12,4 +13,14 @@ export const WrapperContainer = styled.div`
   align-items: center;
   justify-content: space-around;
   width: 100vw;
+
+  @media (max-width: 1300px) {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    text-align: center;
+  }
 `;
+
+export const TextBoxContainerAbout = styled(TextBoxContainer)``;
