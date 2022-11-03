@@ -8,9 +8,9 @@ export const AboutPage = (): JSX.Element => {
     <WrapperContainer>
       <Container>
         <TextBox title="Educação">
-          Estudante de sistemas de informação na UFRPE, desde 2019. Costumo
-          também estudar por conta propria a partir de cursos online, atualmente
-          focado no desenvolvimento WEB.
+          Estudante de sistemas de informação na UFRPE, desde 2019 atualmente no
+          6º período. Costumo também estudar por conta propria a partir de
+          cursos online, atualmente focado no desenvolvimento WEB.
         </TextBox>
 
         <TextBox title="Tecnologias">

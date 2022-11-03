@@ -13,7 +13,7 @@ export const PageContainer = styled(motion.div)`
   justify-content: center;
   scroll-snap-align: start;
 
-  @media (max-height: 1300px) {
+  @media (min-height: 1300px) {
     min-height: 1024px;
     scroll-snap-align: none;
   }

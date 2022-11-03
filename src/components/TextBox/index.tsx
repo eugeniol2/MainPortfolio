@@ -3,13 +3,22 @@ import React from 'react';
 import { Container } from './styles';
 
 interface TextProps {
-  title: string;
+  Prefix?: string;
+  title?: string;
   subtitle?: string;
 }
 
-export const TextBox: React.FC<TextProps> = ({ title, subtitle, children }) => {
+export const TextBox: React.FC<TextProps> = ({
+  Prefix,
+  title,
+  subtitle,
+  children,
+}) => {
   return (
     <Container>
+      <Typography variant="h6" component="h3">
+        {Prefix}
+      </Typography>
       <Typography
         variant="h3"
         component="h3"
