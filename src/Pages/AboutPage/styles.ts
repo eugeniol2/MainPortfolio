@@ -2,7 +2,7 @@
 import { styled } from '@mui/material/styles';
 import { TextBoxContainer } from '../GreetingsPage/styles';
 
-export const Container = styled('div')(({ theme }) => ({
+export const Container = styled('div')(() => ({
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'start',

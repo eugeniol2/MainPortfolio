@@ -7,7 +7,6 @@ import { Container, TextBoxContainer } from './styles';
 import selfphoto from '../../assets/selfphoto.png';
 
 const GreetingsPage: React.FC = () => {
-  const smDown = useMediaQuery((theme: Theme) => theme.breakpoints.down('sm'));
   const lgDown = useMediaQuery((theme: Theme) => theme.breakpoints.down('lg'));
 
   return (
