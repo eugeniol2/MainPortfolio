@@ -28,7 +28,7 @@ const GreetingsPage: React.FC = () => {
           <Button
             variant="outlined"
             target="blank"
-            href="https://drive.google.com/file/d/17Q7WIj2kqmsDrkIU83t0l36oeLZzCpSY/view?usp=sharing"
+            href="https://drive.google.com/file/d/1DApYLLsYdT14WAE-DdLa1YcjR4NxyXSl/view?usp=share_link"
             endIcon={<ArrowForwardIcon />}
           >
             Currículo
