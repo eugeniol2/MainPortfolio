@@ -10,6 +10,8 @@
       <li><a href="https://reactjs.org/">ReactJs</a></li>
       <li><a href="https://prismic.io/">Prismic</a></li>
       <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
+      <li><a href="https://www.framer.com/docs/animation/">Framer motion</a></li>
+      <li><a href="https://www.framer.com/docs/animation/">Framer motion</a></li>
     </ul>
   </section>  
   <section>
