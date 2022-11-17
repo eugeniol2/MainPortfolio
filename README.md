@@ -11,7 +11,7 @@
       <li><a href="https://prismic.io/">Prismic</a></li>
       <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
       <li><a href="https://www.framer.com/docs/animation/">Framer motion</a></li>
-      <li><a href="https://www.framer.com/docs/animation/">Framer motion</a></li>
+      <li><a href="https://mui.com/pt/">Material UI</a></li>
     </ul>
   </section>  
   <section>
@@ -28,7 +28,7 @@
 <h2> O que aprendi com este projeto </h2>
   
  <p>
-   Alem de ser um projeto muito útil pessoalmente, e ter conhecimento em quase todas as tecnologias utilizadas no mesmo, eu também aproveitei para praticar o uso de animações a partir da biblioteca: Framer motion.
+   Alem de ser um projeto muito útil pessoalmente, e ter conhecimento em quase todas as tecnologias utilizadas no mesmo, eu também aproveitei para praticar o uso de animações a partir da biblioteca: Framer motion. Também pude praticar um pouco da biblioteca: Material UI, que é bastante útil para agilizar o desenvolvimento de algumas aplicações.
   </p>
  
 
