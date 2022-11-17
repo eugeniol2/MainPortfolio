@@ -1,4 +1,4 @@
-<h1>Meu porfolio, Eugenio Araújo <h1/>
+<h1>Porfolio, Eugenio Araújo <h1/>
 <h2>Descrição 📝</h2>
 <p> O projeto em si é um local onde eu poderei centralizar todas as informações profissionais, assim como projetos e stacks, prevejo algumas mudanças legais futuramente =)
 </p>
