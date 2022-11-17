@@ -2,7 +2,6 @@
 <h2>Descrição 📝</h2>
 <p> O projeto em si é um local onde eu poderei centralizar todas as informações profissionais, assim como projetos e stacks, prevejo algumas mudanças legais futuramente =)
 </p>
-
 <div>
   <section>
     <h2> Tecnologias 💾</h2>
@@ -21,17 +20,9 @@
     </p>
   </section>  
 </div>
-
-  
-
-
-<h2> O que aprendi com este projeto </h2>
-  
+<h2> O que aprendi com este projeto </h2>  
  <p>
    Alem de ser um projeto muito útil pessoalmente, e ter conhecimento em quase todas as tecnologias utilizadas no mesmo, eu também aproveitei para praticar o uso de animações a partir da biblioteca: Framer motion. Também pude praticar um pouco da biblioteca: Material UI, que é bastante útil para agilizar o desenvolvimento de algumas aplicações.
   </p>
- 
-
-
 <br>
 <p> Feito com ❤ por Eugênio Araújo. </p>
