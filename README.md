@@ -3,6 +3,7 @@
 <h2>Descrição 📝</h2>
 <p> O projeto em si é um local onde eu poderei centralizar todas as informações profissionais, assim como projetos e stacks, prevejo algumas mudanças legais futuramente =)
 </p>
+<h4>link: https://eugenioaraujo.netlify.app/ </h4>
 <div>
   <section>
     <h2> Tecnologias 💾</h2>
