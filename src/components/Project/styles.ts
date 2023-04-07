@@ -8,41 +8,48 @@ interface ContentContainerProps {
 }
 
 export const Container = styled(motion.div)`
-  width: 334px;
-  height: 400px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   background-color: ${colors.background_300};
   border-radius: 8px;
+  transition: transform 0.4s ease-in-out;
+  :hover {
+    transform: translateY(-10px);
+  }
 `;
 
 export const ImageContainer = styled.div<ContentContainerProps>`
   width: 100%;
-  height: 174px;
+  height: 124px;
   background: url(${(props) => props.imageURL}) no-repeat center;
   background-size: cover;
   border-radius: 8px 8px 0 0;
 `;
 
 export const TextContainer = styled.div`
+  padding: 8px;
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin: 8px;
 `;
 
-export const Title = styled.h1``;
-export const Description = styled.p`
-  height: 90px;
+export const Stacks = styled.p`
+  min-height: 80px;
 `;
-export const Stacks = styled.p``;
 
 export const LinkContent = styled.div`
   display: flex;
-  align-items: center;
   gap: 8px;
 
   &:hover {
     color: ${lighten(0.2, colors.primary_400)};
   }
+`;
+
+export const LinksContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 64px;
 `;

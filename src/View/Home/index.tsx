@@ -1,6 +1,6 @@
 import React from 'react';
 import { AboutPage } from '../../Pages/AboutPage';
-import GreetingsPage from '../../Pages/GreetingsPage';
+import { GreetingsPage } from '../../Pages/GreetingsPage';
 import { PageContainer } from './styles';
 
 export const Home: React.FC = () => {

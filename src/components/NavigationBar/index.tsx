@@ -1,6 +1,6 @@
 import React from 'react';
 import logoImg from '../../assets/Logo.svg';
-import NavLink from '../NavLink';
+import { NavLink } from '../NavLink';
 import { Container, MenuOptions } from './styles';
 
 export const NavigationBar: React.FC = () => {

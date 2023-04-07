@@ -7,7 +7,7 @@ export const Container = styled('div')(({ theme }) => ({
   justifyContent: 'center',
   rowGap: '16px',
   columnGap: '16px',
-  gridTemplateColumns: '334px 334px 334px',
+  gridTemplateColumns: '340px 334px 334px',
 
   [theme.breakpoints.down('lg')]: {
     gridTemplateColumns: 'auto',

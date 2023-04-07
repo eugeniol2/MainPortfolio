@@ -6,7 +6,7 @@ import { TextBox } from '../../components/TextBox';
 import { Container, TextBoxContainer } from './styles';
 import selfphoto from '../../assets/selfphoto.png';
 
-const GreetingsPage: React.FC = () => {
+export const GreetingsPage: React.FC = () => {
   const lgDown = useMediaQuery((theme: Theme) => theme.breakpoints.down('lg'));
 
   return (
@@ -18,17 +18,21 @@ const GreetingsPage: React.FC = () => {
             title="Eugênio Araújo"
             subtitle="Front-  End Developer"
           >
-            Amante da tecnologia desde 2019, em meu tempo livre sempre busco
-            estar me desafiando, e faço isso através de projetos pessoais como
-            este. Como programador, busco sempre manter meu código limpo, apesar
-            de que algo sempre poderá, ainda, ser melhorado. Por fim,
-            atualmente, busco uma vaga de estágio para que possa por em prática
-            tudo aquilo que venho aprendendo.
+            Olá a todos!! me considero um desenvolvedor Front-End altamente
+            habilidoso e dedicado, com experiência em diversas tecnologias
+            importantes, incluindo React, Next.js, CSS, API REST, React Native e
+            TypeScript. Como desenvolvedor Front-End, sou capaz de criar
+            interfaces de usuário altamente responsivas e atraentes, além de
+            trabalhar com API para conectar-se a servidores e extrair dados para
+            minha aplicação. Além disso, tenho conhecimentos em TypeScript, o
+            que me permite criar aplicativos mais robustos e escaláveis. Estou
+            em busca de novas oportunidades para aplicar minhas habilidades e
+            conhecimentos em um ambiente desafiador e colaborativo.
           </TextBox>
           <Button
             variant="outlined"
             target="blank"
-            href="https://drive.google.com/file/d/1DApYLLsYdT14WAE-DdLa1YcjR4NxyXSl/view?usp=share_link"
+            href="https://drive.google.com/drive/u/0/folders/1vdqkBKMDQfb7RnLfq_tkaQBV8eWjveBL"
             endIcon={<ArrowForwardIcon />}
           >
             Currículo
@@ -56,5 +60,3 @@ const GreetingsPage: React.FC = () => {
     </>
   );
 };
-
-export default GreetingsPage;

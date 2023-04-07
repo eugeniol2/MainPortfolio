@@ -7,7 +7,7 @@ interface NavlinkProps {
   text: string;
 }
 
-const NavLink: React.FC<NavlinkProps> = ({ path, text }) => {
+export const NavLink: React.FC<NavlinkProps> = ({ path, text }) => {
   const location = useLocation();
   const isActive = location.pathname === path;
 
@@ -21,5 +21,3 @@ const NavLink: React.FC<NavlinkProps> = ({ path, text }) => {
     </NavLinkContainer>
   );
 };
-
-export default NavLink;

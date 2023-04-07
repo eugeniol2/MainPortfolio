@@ -8,17 +8,16 @@ export const AboutPage = (): JSX.Element => {
     <WrapperContainer>
       <Container>
         <TextBox title="Educação">
-          Estudante de sistemas de informação na UFRPE, desde 2019 atualmente no
-          6º período. Costumo também estudar por conta propria a partir de
-          cursos online, atualmente focado no desenvolvimento WEB.
+          Atualmente, estou cursando Sistemas de Informação na UFRPE, o que me
+          permite aprimorar minhas habilidades e conhecimentos nessa área em
+          constante evolução. Além disso, tive a oportunidade de estudar com a
+          Rocketseat e a Frontend Masters, duas das maiores referências em
+          educação em tecnologia.
         </TextBox>
 
         <TextBox title="Tecnologias">
-          Por cursar sistemas de informação tenho um certo conhecimento com
-          Python, entretanto, meu foco atualmente está no React.JS e Next.JS .
-          Também tenho conhecimento em várias bibliotecas interessantes tais
-          como: Styled components, Material ui, Formik, React hook form,
-          Toastify.
+          React, Next.js, CSS, API REST, React Native e TypeScript são alguns
+          exemplos de tecnologias que costumo utilizar em projetos pessoais.
         </TextBox>
       </Container>
       <ThinkingGuy />

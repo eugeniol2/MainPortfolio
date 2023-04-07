@@ -4,7 +4,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import IconButton from '@mui/material/IconButton';
 import { Container } from './styles';
 
-const AsideSocialMediaMenu: React.FC = () => {
+export const AsideSocialMediaMenu: React.FC = () => {
   return (
     <Container>
       <IconButton
@@ -26,5 +26,3 @@ const AsideSocialMediaMenu: React.FC = () => {
     </Container>
   );
 };
-
-export default AsideSocialMediaMenu;

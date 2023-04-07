@@ -5,12 +5,12 @@ import { ThemeProvider } from '@mui/material/styles';
 import { Home } from './View/Home';
 import { GlobalStyles } from './styles/global';
 import { theme } from './styles/theme';
-import ErrorPage from './Pages/ErrorPage';
+import { ErrorPage } from './Pages/ErrorPage';
 import { NavigationBar } from './components/NavigationBar';
 import { MainContainer } from './View/Home/styles';
 import { ProjectsPage } from './Pages/ProjectsPage';
 import { Post } from './Pages/Post';
-import AsideSocialMediaMenu from './components/AsideSocialMediaMenu';
+import { AsideSocialMediaMenu } from './components/AsideSocialMediaMenu';
 
 const App: React.FC = () => {
   return (

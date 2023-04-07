@@ -1,7 +1,7 @@
 import React from 'react';
 import { useAllPrismicDocumentsByType } from '@prismicio/react';
 import { Container } from './styles';
-import Project from '../../components/Project';
+import { Project } from '../../components/Project';
 
 export const ProjectsPage: React.FC = () => {
   const [document] = useAllPrismicDocumentsByType('project');
@@ -15,6 +15,7 @@ export const ProjectsPage: React.FC = () => {
           imageURL={item?.data.picture.url}
           description={item?.data.description}
           gitHubLink={item?.data.githuburl.url}
+          deployLink={item?.data.deployadress.url}
         />
       ))}
     </Container>
